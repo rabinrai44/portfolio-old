@@ -1,0 +1,170 @@
+/* ====================================
+========= RESPONSIVE LAYOUT  ===========
+=======================================*/
+
+@media screen and (max-width: 1200px){
+    
+     .custom-navbar .navbar-brand, .scroll .navbar-brand {
+                font-size: 1.75rem;
+                line-height: 22px;
+        }
+	.hero-text-wrap {
+            margin: 0 auto;
+            text-align: center;
+            top: 50%;
+            left: 40%;
+        }
+        .hero-text-wrap p { 
+            font-size: 16px;
+            padding: 8px;
+        }
+        .hero-text-wrap h2 {
+            width: 90%;
+            font-size: 48px; 
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+       .secondry {
+           padding: 5px 20px 40px;
+        }
+
+} /* end 960 */
+
+@media screen and (min-width: 801px) and (max-width: 960px){
+   
+ 
+}
+
+@media screen and (max-width:480px) {
+	
+}
+
+/* Vertically oriented tablets and phablets */
+@media screen and (min-width:481px) and (max-width:768px) {
+    .custom-navbar .navbar-collapse {
+        background-color: #000;
+        text-align:center; 
+        border: none;
+    }
+    .scroll .navbar-collapse {
+        background-color: #34495e;
+        text-align:center;    
+    }
+    .custom-navbar .nav li a {
+        line-height:20px;
+        overflow:hidden;
+    }
+    
+    .scroll .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+}
+
+/* Landscape orientated iPads */
+@media only screen and (max-width: 800px) and (orientation:landscape) {
+
+}
+
+/* Vertically orientated iPads & other small devices */
+@media only screen and (max-width: 800px) and (orientation:portrait) {
+
+    
+}
+
+/* Vertically orientated iPads & other small devices */
+@media only screen and (max-width: 800px) {
+	 .custom-navbar .navbar-brand, .scroll .navbar-brand {
+                font-size: 1.75rem;
+                line-height: 22px;
+        }
+	.hero-text-wrap {
+            margin: 0 auto;
+            text-align: center;
+            top: 40%;
+            left: 50%;
+        }
+        .hero-text-wrap p { 
+            font-size: 16px;
+            padding: 8px;
+        }
+        .hero-text-wrap h2 {
+            width: 90%;
+            font-size: 48px; 
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+       .secondry {
+           padding: 5px 20px 40px;
+        }
+    
+
+}
+
+@media screen and (max-width:480px) {
+    .custom-navbar .navbar-brand, .scroll .navbar-brand {
+                font-size: 1.5rem;
+                line-height: 22px;
+        }
+        
+        .hero-text-wrap {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+        }
+        .hero-text-wrap p { 
+            font-size: 16px;
+            padding: 8px;
+        }
+        .hero-text-wrap h2 {
+            font-size: 32px; 
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+       .secondry {
+           padding: 5px 20px 40px;
+        }
+    
+ 
+    
+	
+}
+
+/** iPhone 6s Plus **/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+}
+
+/* Very Small phone or tablet */
+@media only screen and (min-width: 270px) and (max-width: 320px) {
+    .custom-navbar .navbar-brand, .scroll .navbar-brand {
+                font-size: 1.5rem;
+                line-height: 22px;
+        }
+        
+        .hero-text-wrap {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .hero-text-wrap p { 
+            font-size: 16px;
+            padding: 8px;
+        }
+        .hero-text-wrap h2 {
+            width: 240px;
+            font-size: 32px; 
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+       .secondry {
+           padding: 5px 20px 40px;
+        }
+		
+}

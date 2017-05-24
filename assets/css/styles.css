@@ -1,0 +1,681 @@
+/*
+
+ * Template Name: RBN
+ 
+Primary color === Partern 
+Color Guide: 
+Wet Asphalt : #34495e 
+Belize Hole : #2c3e50
+White: #ffffff
+
+source: http://www.flatuicolors.com
+*/
+
+
+
+/* ====================
+[1] General Styles
+==================== */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #555555;
+    font-family:'lato', 'Raleyway', sans-serif;
+    font-weight: 300;
+    font-size: 100%;        
+    text-rendering: optimizeLegibility;	
+    line-height: 1.6;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: Raleway;
+    font-weight: 300;
+    margin-bottom:15px;
+    color: #010101;
+}
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 160%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2:after {
+}
+
+/* Paragraph */
+
+
+/* Links */
+a, button {
+	outline: none;
+    text-decoration:none;
+}
+
+
+/* Section */
+section {
+    padding: 60px 0;
+}
+
+/* Buttons */
+.btn,
+.btn-custom {
+    background-color: #f68320;
+    border-color: #f68320;
+}
+
+.btn-custom {
+    display: inline-block;
+    color: #fff;
+}
+.btn-primary:hover {
+    background: #2c3e50;
+}
+
+
+
+/* Modal Customize */
+body.modal-open {
+    padding-right: 0 !important; /* not important */
+    position: relative;
+}
+
+
+/*============= 1.0 Global Styles ==============*/
+
+
+
+
+
+
+/*============= Customized Navigation Styles ==============*/
+
+.navbar-fixed-top {
+    padding: 10px 0;
+    border: none;
+    margin-bottom: 0;
+    background-color:#101010;
+    -webkit-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+
+.navbar-fixed-top .navbar-brand {
+    color: #f68320;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 30px;    
+    transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+}
+
+.navbar-fixed-top .nav li a {
+    font-size: 18px;
+    color:#fff;
+    font-weight:700;
+    line-height:30px;
+    padding-right:20px;
+    padding-left:20px;
+    text-transform:capitalize;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.navbar-fixed-top .btn {
+    background: none;
+    border-color: #f68320;
+}
+.navbar-fixed-top .btn:hover,
+.scroll .btn:hover {
+    border-color: #101010;
+}
+.scroll .btn {
+    background: #f68320;
+    border-radius: 0;
+}
+
+
+.navbar-fixed-top .nav li a:hover {
+    background: transparent;
+    color: #34495e;
+}
+.navbar-fixed-top .navbar-nav > li > a:hover,
+.navbar-fixed-top .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color:#34495e;
+}
+.navbar-fixed-top .nav li.active > a {
+    background-color: transparent;
+    color: #34495e;
+}
+.navbar-fixed-top .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background: #f68320;
+    border-color: #f68320;;
+}
+
+.scroll {
+    background-color: #101010 !important;
+    padding:0;
+}
+.scroll .navbar-brand {
+    font-size: 2rem;
+}
+.scroll .nav li a {
+    font-size: 16px;
+}
+
+
+/*=============  Animated Preloader Styles ==============*/
+
+
+/*=============  Header Styles ==============*/
+
+header {
+    
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.jumbotron p,
+.jumbotron h1 {
+    color: #fff;
+    word-spacing: 2px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+}
+
+.jumbotron h1 {
+    font-size: 64px;
+    font-weight: 600;    
+}
+
+
+
+
+/* ----------- Hire Me ---------- */
+#hireme {
+    padding: 100px 0;
+    background: #2c3e50;
+    background-size: cover;
+    background-position: center;
+}
+
+#hireme h1,
+#hireme h2,
+#hireme h3 {
+    color: #fff;
+}
+
+#hireme .btn-primary:hover {
+    border-color: #fff;
+}
+
+/*============= Section About Styles ==============*/
+.section-about h2 {
+    letter-spacing: 1px;
+    margin: 10px 10px 5px 10px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.section-about h3 {
+    color: #2c3e50;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 18px;
+}
+.section-about p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: left;
+    margin: 30px 39px 10px 10px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.section-about p span {
+    font-style: italic;
+    font-weight: 500;
+}
+.section-about img {
+    -webkit-box-shadow: 0 0 20px #DDD;
+    box-shadow: 0 0 20px #DDD;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.content-about {
+    border-left: 3px solid #eeeeee;
+}
+
+/*-------------- Skills ---------------*/
+.skills {
+    height: auto;
+    width: 100%;
+    margin-top: 10px; 
+    padding: 0;
+}
+
+.skills li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.skills .btn {
+    background-color: #34495e;
+    border-color: #34495e;
+    color: #fff;
+    font-size: 15px;    
+    margin-bottom: 10px;
+}
+.skills .btn:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #eee;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+/* ====================  Services ==================== */
+#services {
+    background-color:rgba(221,221,221,.4);
+    overflow:hidden;
+}
+#services h2 {
+    text-align:center;
+}
+.service {
+    overflow: hidden;
+    padding: 50px 15px;
+    margin: 15px auto;
+    min-height: 370px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0 0 20px rgba(3,3,3,.4);
+    box-shadow: 0 0 20px rgba(3,3,3,.4);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#services h3 {
+    font-weight:500;
+    text-align: center;
+}
+
+#services .fa {
+    color:#34495e;
+}
+.service:hover {
+    -webkit-box-shadow:0 0 30px rgba(52, 73, 94, 0.8);
+    box-shadow: 0 0 30px rgba(52, 73, 94, 0.8);
+    -webkit-transform: translate3d(0,-5px,0);
+    transform: translate3d(0,-5px,0);
+}
+.service p {
+  font-size: 16px;
+}
+
+.secondry {
+   padding: 5px 180px 40px;
+}
+
+
+/* ====================   Portfolio/Works  ==================== */
+
+#portfolio .sub-title {
+    letter-spacing:1px;
+    font-weight:300;
+    margin:15px auto;
+    color:#333;
+    padding:10px;
+    line-height:25px;
+}
+figure {
+	position: relative;
+	overflow: hidden;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+    margin:15px auto;
+}
+figure img {
+	position: relative;
+	display: block;
+	opacity: 0.8;
+    width:100%;
+}
+figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure figcaption::before,
+figure figcaption::after {
+	pointer-events: none;
+}
+figure figcaption,
+figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+figure h2 span {
+	font-weight: 800;
+}
+figure h2,
+figure p {
+	margin: 0;
+}
+figure p {
+	letter-spacing: 1px;
+	font-size:14px;
+}
+figure.effect {
+	background: #2c3e50;
+}
+figure.effect img {
+	opacity: 0.99;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+figure.effect figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+figure.effect p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 3em;
+	padding: 0 1em;
+	max-width: 150px;
+	border-right: 4px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+figure.effect h2 {
+	text-align: left;
+}
+figure.effect:hover img {
+	opacity: 0.6;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+figure.effect:hover figcaption::before {
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+figure.effect:hover p {
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+/* ====================   Contact  ==================== */
+
+#contact {
+    background: #eee;
+}
+#contact .sub-title {
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:300;
+    margin:15px auto;
+    color:#f9f9f9;
+    padding:10px;
+    line-height:25px;
+}
+#contact p {
+    font-size: 16px;
+}
+
+
+/* ====================   Single-Portfolio  ==================== */
+
+.single-page h2, h3, h4  {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.single-page h4 {
+    font-style: italic;
+}
+.single-page h4 {
+    font-weight: bold;
+}
+.single-page h5 {
+    margin-left: 8px;
+}
+.single-portfolio {
+    background-image: url(../images/default-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 320px;
+    
+}
+.page-title {
+    padding-top: 140px;
+}
+.page-title p,
+.page-title h1,
+.single-portolio p {
+    text-align: center;
+    color: #fff;
+}
+.page-title h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.project-content {
+    border-left: 4px solid #ddd;
+}
+
+/* Use of Skill */
+.use-skills li {
+    list-style: none;
+    font-size: 14px;
+}
+.use-skills .fa {
+    font-weight: 100;
+    opacity: .6;
+    margin-left: -30px;
+    padding-right: 10px;
+    
+}
+
+
+
+/* ====================   Blog Page  ==================== */
+
+/* Primary */
+.blog-template {
+    background: url("../images/tile.jpg");
+    padding: 60px 0;
+}
+.blog-template p,
+.blog-post p {
+    padding: 10px;
+}
+.blog-post,
+.widget,
+#comments {
+    position: relative;
+    border: solid 1px #ddd;
+    background: #fff;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post-image {
+    height: auto;
+    margin-bottom: 30px; 
+    overflow: hidden;
+    position: relative;
+}
+.post-meta {
+    padding: 20px;
+}
+.meta-data-list {
+    list-style: none;    
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+.meta-data-list li {
+    font-size: 16px;
+    display: inline-block;
+}
+.blog-title,
+.md-title {    
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+.blog-title a,
+.meta-data-list li a {
+    color: #34495e;
+}
+.ulist {
+    list-style: none;
+}
+.ulist li {
+    display: block;
+    padding-bottom: 5px;
+}
+
+/* Secondary */
+
+.widget {
+    height: auto;
+    padding: 20px; 
+    overflow: hidden;
+}
+
+
+
+/* ====================   Footer  ==================== */
+
+footer {
+    background-color: #010101;
+    color: #eee;
+    text-align: center;
+    padding: 40px 0;
+}
+footer h2,
+footer h3,
+footer h4 {
+    color: #ccc;
+}
+.footer-item {
+    list-style: none;
+    display: block;
+    padding: 30px 0;
+}
+
+.footer-item .f-items {
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links li {
+    display: inline-block;
+    padding-right: 15px
+}
+.footer-links li:last-child {
+    padding-right: 0;
+}
+.footer-links li a {
+    color: #aaa;
+}
+
+.footer-wrap {
+    padding-top: 30px;
+}
+
+/* social media */
+.social-media {
+    padding: 40px 0;
+}
+.social-media .f-items {
+    display: inline-block;
+}
+
+
+/* ====================   Animations  ==================== */
+
+
