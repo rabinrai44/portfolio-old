@@ -147,17 +147,15 @@ body.modal-open {
     padding: 15px 0;
     border: none;
     margin-bottom: 0;
-    background-color: #34495e;
     -webkit-transition:all .5s ease-in-out;
     transition:all .5s ease-in-out;
 }
 
 .scroll {
-  background: #34495e;
+  border-bottom: 1px solid #eee;
   padding: 0;
 }
  .navbar-brand {
-    color: silver;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 35px;
@@ -227,8 +225,7 @@ body.modal-open {
 
 /*=============  Header Styles ==============*/
 
-header {
-    background-color: #34495e;
+#hero {
     height: 100vh;
     text-align: left;
 }
@@ -245,14 +242,12 @@ header {
     line-height: 50px;
     margin-bottom: 35px;
     font-weight: 300;
-    color: #fff;
     text-align: left;
     letter-spacing: 2px;
 }
 
 .hero-text-wrap p {
     font-size: 18px;
-    color: #fff;
     font-weight: 400;
     line-height: 1.7em;
     margin-bottom: 30px;
