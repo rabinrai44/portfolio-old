@@ -1,0 +1,32 @@
+/* BUTTONS CSS
+================================= */
+.btn {
+  color: #FFF;
+  background-color: $mainGreen;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+
+  &--green {
+    background-color: $mainGreen;
+  }
+
+  &--tomato {
+    background-color: #F06449;
+  }
+
+  &--large {
+    padding: 1.1rem 1.9rem;
+
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: 1px solid $mainGreen;
+  }
+
+
+}

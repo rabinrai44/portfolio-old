@@ -1,0 +1,19 @@
+/* HEADLINE CSS */
+.headline {
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: $mainGreen;
+
+
+  @mixin atSmall {
+    font-size: 2.875rem;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--white {
+    color: #FFF;
+  }
+}

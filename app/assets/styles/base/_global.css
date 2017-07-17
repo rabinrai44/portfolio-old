@@ -1,0 +1,11 @@
+/* Global CSS
+================================= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $darkGrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
