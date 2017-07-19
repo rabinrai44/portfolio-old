@@ -1,0 +1,46 @@
+/* PORTFOLIO CSS
+================================= */
+.page-section--portfolio {
+
+}
+.p-item {
+  position: relative;
+
+  &--overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    color: #FFF;
+    overflow: hidden;
+    background-color: $mainGreen;
+    transition: all .5s ease;
+    text-align: center;
+
+    &__content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 100%;
+      text-align: center;
+      opacity: 1;
+    }
+
+    &__title {
+      font-weight: 300;
+    }
+
+  }
+
+  &:hover  {
+    .p-item--overlay {
+      height: 100%;
+      right: 0;
+      opacity: .9;
+    }
+  }
+
+
+}

@@ -3,9 +3,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: $darkGrey;
+  line-height: 1.65;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+* {
+  box-sizing: border-box;
 }

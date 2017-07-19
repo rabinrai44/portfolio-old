@@ -6,8 +6,12 @@
   }
 
 
-
   &--green {
     background-color: $mainGreen;
   }
+
+  &--no_white {
+    background-color: $aliceBlue;
+  }
+
 }

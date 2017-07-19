@@ -456,6 +456,7 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #747373;
+  line-height: 1.65;
 }
 
 img {
@@ -463,14 +464,23 @@ img {
   height: auto;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* HERO CSS
 ================================= */
 
 .lg-hero {
   position: relative;
-  height: 640px;
+  height: 100vh;
   width: 100%;
-  background-color: #ECF8F8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 20, 20, 0.8)), to(rgba(0, 0, 0, 0.7))), url('/assets/images/bg-optional.jpg');
+  background-image: linear-gradient(rgba(0, 20, 20, 0.8), rgba(0, 0, 0, 0.7)), url('/assets/images/bg-optional.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .lg-hero__text-content {
@@ -484,8 +494,8 @@ img {
   }
 
 .lg-hero__title {
-    font-weight: 300;
-    color: #747373;
+    font-weight: 400;
+    color: #FFF;
     font-size: 2.4rem;
     margin: 0;
 
@@ -516,11 +526,11 @@ img {
   }
 
 .lg-hero__description {
-    color: #747373;
+    color: #FFF;
     font-size: 1.1rem;
     font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-    max-width: 38.75rem;
+    max-width: 55.75rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -551,7 +561,17 @@ img {
 
 .btn--tomato {
     background-color: #F06449;
+    border: 1px solid #F06449;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
   }
+
+.btn--tomato:hover {
+      background-color: rgba(0, 0, 0, .4);
+      border: 1px solid #ECF8F8;
+      -webkit-transform: scale(1.03);
+              transform: scale(1.03);
+    }
 
 .btn--large {
     padding: 1.1rem 1.9rem;
@@ -572,6 +592,9 @@ img {
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1236px;
 }
 
 .wrapper--medium {
@@ -585,17 +608,23 @@ img {
 
 .page-section {
   padding: 1.2rem 0;
+
 }
 
 @media (min-width: 800px) {
 
 .page-section {
     padding: 4.5rem 0
+
 }
   }
 
 .page-section--green {
     background-color: #3C6E71;
+  }
+
+.page-section--no_white {
+    background-color: #ECF8F8;
   }
 
 /* HEADLINE CSS */
@@ -620,3 +649,67 @@ img {
 .headline--white {
     color: #FFF;
   }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row--gutters > div {
+    padding: 10px;
+  }
+
+.row__3 {
+    float: left;
+    width: 33.33%;
+  }
+
+/* PORTFOLIO CSS
+================================= */
+
+.page-section--portfolio {
+
+}
+
+.p-item {
+  position: relative;
+
+
+}
+
+.p-item--overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    color: #FFF;
+    overflow: hidden;
+    background-color: #3C6E71;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-align: center;
+
+  }
+
+.p-item--overlay__content {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      left: 0;
+      width: 100%;
+      text-align: center;
+      opacity: 1;
+    }
+
+.p-item--overlay__title {
+      font-weight: 300;
+    }
+
+.p-item:hover .p-item--overlay {
+      height: 100%;
+      right: 0;
+      opacity: .9;
+    }

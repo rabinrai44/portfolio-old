@@ -12,7 +12,15 @@
   }
 
   &--tomato {
-    background-color: #F06449;
+    background-color: $tomaColor;
+    border: 1px solid $tomaColor;
+    transition: all .3s ease-out;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, .4);
+      border: 1px solid $aliceBlue;
+      transform: scale(1.03);
+    }
   }
 
   &--large {
