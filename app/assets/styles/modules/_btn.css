@@ -6,6 +6,11 @@
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  transition: all .3s ease-out;
+
+  &:hover {
+    background-color: $tomaColor;
+  }
 
   &--green {
     background-color: $mainGreen;
@@ -23,6 +28,14 @@
     }
   }
 
+  &--medium {
+    padding: .32rem .75rem;
+
+    @mixin atSmall {
+      padding: .4rem 1rem;
+    }
+  }
+
   &--large {
     padding: 1.1rem 1.9rem;
 
@@ -33,7 +46,16 @@
 
   &--outline {
     background-color: transparent;
-    border: 1px solid $mainGreen;
+    border: 1px solid #FFF;
+  }
+
+  &--inline {
+    display: inline-block;
+  }
+
+  &--block {
+    width: 100%;
+    text-align: center;
   }
 
 

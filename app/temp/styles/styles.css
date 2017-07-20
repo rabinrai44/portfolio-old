@@ -455,6 +455,7 @@ template {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   color: #747373;
   line-height: 1.65;
 }
@@ -467,6 +468,11 @@ img {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+a {
+  color: #F06449;
+  text-decoration: none;
 }
 
 /* HERO CSS
@@ -551,9 +557,15 @@ img {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 
 
 }
+
+.btn:hover {
+    background-color: #F06449;
+  }
 
 .btn--green {
     background-color: #3C6E71;
@@ -573,6 +585,17 @@ img {
               transform: scale(1.03);
     }
 
+.btn--medium {
+    padding: .32rem .75rem;
+  }
+
+@media (min-width: 530px) {
+
+.btn--medium {
+      padding: .4rem 1rem
+  }
+  }
+
 .btn--large {
     padding: 1.1rem 1.9rem;
   }
@@ -586,10 +609,20 @@ img {
 
 .btn--outline {
     background-color: transparent;
-    border: 1px solid #3C6E71;
+    border: 1px solid #FFF;
+  }
+
+.btn--inline {
+    display: inline-block;
+  }
+
+.btn--block {
+    width: 100%;
+    text-align: center;
   }
 
 .wrapper {
+  overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
   margin-left: auto;
@@ -599,6 +632,10 @@ img {
 
 .wrapper--medium {
     max-width: 976px
+  }
+
+.wrapper--narrow {
+    max-width: 470px;
   }
 
 .wrapper .wrapper {
@@ -631,14 +668,14 @@ img {
 
 .headline {
   font-size: 1.9rem;
-  font-weight: 300;
+  font-weight: 200;
   color: #3C6E71;
 }
 
 @media (min-width: 530px) {
 
 .headline {
-    font-size: 2.875rem
+    font-size: 2.2rem
 }
   }
 
@@ -656,14 +693,59 @@ img {
     display: table;
   }
 
+.row--gutters {
+    margin-right: -65px;
+  }
+
 .row--gutters > div {
-    padding: 10px;
+    padding-right: 65px;
   }
 
 .row__3 {
     float: left;
     width: 33.33%;
   }
+
+@media (min-width: 800px) {
+    .row__medium-4 {
+      float: left;
+      width: 33.33%;
+    }
+
+    .row__medium-8 {
+      float: left;
+      width: 66.66%;
+    }
+  }
+
+.generic-content-container p {
+    line-height: 1.65;
+    font-size: 1.125rem;
+    margin: 1.8rem 0;
+  }
+
+.generic-content-container p a {
+    font-weight: 700;
+  }
+
+.page-section--about {
+  color: #FFF;
+}
+
+.page-section--about__profile-img {
+    margin: 0;
+  }
+
+.page-section--about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.page-section--about ul li {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
 
 /* PORTFOLIO CSS
 ================================= */

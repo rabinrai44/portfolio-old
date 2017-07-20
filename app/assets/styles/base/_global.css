@@ -2,6 +2,7 @@
 ================================= */
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   color: $darkGrey;
   line-height: 1.65;
 }
@@ -13,4 +14,9 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: $tomaColor;
+  text-decoration: none;
 }
