@@ -45,6 +45,18 @@
     }
   }
 
+  &__medium-6 {
+    float: left;
+    width: 100%;
+  }
+
+  @mixin atMedium {
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+  }
+
 
   /* Begin equal-height-until-medium
   ========================================= */
