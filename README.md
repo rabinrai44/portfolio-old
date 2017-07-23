@@ -75,6 +75,10 @@ Project Setting Up:
   - Babel - ES6 standard code automatic convert ES5 code
     >npm install babel-core babel-loader babel-preset-es2015 --save-dev
 
+  - Waypoints
+    >npm install waypoints --save
+    
+
 
 # File organized
 ====================

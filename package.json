@@ -18,5 +18,8 @@
     "postcss-nested": "^2.0.4",
     "postcss-simple-vars": "^4.0.0",
     "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "waypoints": "^4.0.1"
   }
 }
