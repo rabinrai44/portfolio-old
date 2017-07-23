@@ -27,18 +27,30 @@
 
   <body>
    <!-- ========== Header ========== -->
-    <header>
-      <div>
-        <h1 class="site-logo"> RBN </h1>
-        <a href="#contact" class="btn btn--tomato">Get in Touch</a>
-          <nav>
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-            </ul>
-          </nav><!-- /nav -->
-      </div>
+    <header class="site-header">
+      <div class="wrapper">
+          <div class="site-header__logo">
+            <div class="site-header__logo__graphic icon icon-rbn-curve">
+                Rabin Rai
+            </div>
+              <img src="assets/images/icons/icon-rbn-curve-w.png" width="65" alt="site logo">
+          </div><!-- /.site-header__logo -->
+          <div class="site-header__menu-icon">
+            <div class="site-header__menu-icon__middle"></div>
+          </div>
+          <div class="site-header__menu-content">
+            <div class="site-header__btn-container">
+              <a href="#contact" class="btn">Get in Touch</a>
+            </div><!-- /.site-header__btn-container -->
+            <nav class="primary-nav primary-nav--pull-right">
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+              </ul>
+            </nav><!-- /nav -->
+          </div><!-- /menu-content -->
+      </div><!-- /.wrapper -->
     </header><!-- header -->
     <div class="lg-hero">
        <div class="lg-hero__text-content">
@@ -238,6 +250,6 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
             </div><!-- /.row -->
         </div><!-- /.wrapper -->
      </footer><!-- /footer -->
-
+  <script src="/temp/scripts/App.js"></script>
 </body>
 </html>

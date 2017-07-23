@@ -59,8 +59,22 @@ Project Setting Up:
   - Browsersync
     >npm install browswersync --save-dev
 
-  - postcss-mixins
+  - Postcss-mixins
     >npm install postcss-mixins --save-dev
+
+  - Postcss-hexrgba - coverting hex to rgba
+    >npm install postcss-hexrgba --save-dev
+
+  - Webpack
+    >npm install webpack -g
+    >npm install webpack --save-dev (install locally into project folder.)
+
+  - jQeury
+    >npm install jquery --save-dev
+
+  - Babel - ES6 standard code automatic convert ES5 code
+    >npm install babel-core babel-loader babel-preset-es2015 --save-dev
+
 
 # File organized
 ====================

@@ -7,6 +7,7 @@ gulp.task('watch', function() {
 
 // Setting up browserSync
   browserSync.init({
+    notify: false,
     server: {
       baseDir: "app"
     }
@@ -17,14 +18,22 @@ gulp.task('watch', function() {
     browserSync.reload();
   });
 
-// Watching for styles files
+// Watching if styles files changes
   watch('./app/assets/styles/**/*.css', function() {
       gulp.start('cssInject');
   });
 
+  // Watching if JS file changes
+  watch('./app/assets/scripts/**/*.js', function() {
+    gulp.start('scriptsRefresh');
+  })
 });
 
 gulp.task('cssInject', ['styles'], function() {
   return gulp.src('./app/temp/styles/styles.css')
     .pipe(browserSync.stream());
+});
+
+gulp.task('scriptsRefresh', ['scripts'],   function() {
+  browserSync.reload();
 });
