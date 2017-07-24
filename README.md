@@ -77,7 +77,10 @@ Project Setting Up:
 
   - Waypoints
     >npm install waypoints --save
-    
+
+  - jQuery-smooth-scroll
+    >npm install jquery-smooth-scroll --save
+
 
 
 # File organized

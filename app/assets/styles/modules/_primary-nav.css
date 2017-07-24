@@ -51,6 +51,10 @@
       font-size: 1rem;
       padding: 13px 0;
       background-color: transparent;
+
+      &.is-current-link {
+        color: $tomaColor;
+      }
     }
   }
 

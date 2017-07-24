@@ -33,7 +33,7 @@
             <div class="site-header__logo__graphic icon icon-rbn-curve">
                 Rabin Rai
             </div>
-              <img src="assets/images/icons/icon-rbn-curve-w.png" width="65" alt="site logo">
+              <a href="#home" id="home-link"><img src="assets/images/icons/icon-rbn-curve-w.png" width="65" alt="site logo"></a>
           </div><!-- /.site-header__logo -->
           <div class="site-header__menu-icon">
             <div class="site-header__menu-icon__middle"></div>
@@ -44,15 +44,15 @@
             </div><!-- /.site-header__btn-container -->
             <nav class="primary-nav primary-nav--pull-right">
               <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about" id="about-link">About</a></li>
+                <li><a href="#services" id="services-link">Services</a></li>
+                <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
               </ul>
             </nav><!-- /nav -->
           </div><!-- /menu-content -->
       </div><!-- /.wrapper -->
     </header><!-- header -->
-    <div class="lg-hero">
+    <div class="lg-hero" id="home" data-matching-link="#home-link">
        <div class="lg-hero__text-content">
            <div class="wrapper">
               <h1 class="lg-hero__title">Web Developer </h1>
@@ -60,13 +60,13 @@
               <p class="lg-hero__description">Hello, I&#039;m Rabin. I&#039;m a Front-End Web Developer from USA,<br />
 Responsive website with Bootstrap &amp; WordPress.                </p>
 
-              <a class="btn btn--large" href="#about">Find out more</a>
+              <a class="btn btn--large" href="#about-link" id="find-more">Find out more</a>
         </div><!-- .wrapper -->
     </div><!-- .text-content -->
 </div><!-- /.lg-hero -->
 
 <!-- ==========  About ========== -->
- <section id="about" class="page-section page-section--about page-section--green">
+ <section id="about" class="page-section page-section--about page-section--green" data-matching-link="#about-link" data-target-link="#find-more">
     <div class="wrapper">
         <div class="row row--gutters">
           <h2 class="headline headline--center headline--white">About <strong>me</strong> </h2>
@@ -95,7 +95,7 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
    </section>  <!-- /#section-about   -->
 
 <!-- ==========  Services =================== -->
-<section id="services" class="page-section page-section--services">
+<section id="services" class="page-section page-section--services" data-matching-link="#services-link">
    <div class="wrapper">
          <h2 class="headline headline--center">My <strong>Services</strong> </h2>
            <div class="row row--less_gutters row--equal-height-until-medium">
@@ -144,7 +144,7 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
 </section> <!-- /.page-section -->
 
 <!-- ========== Portfolio ========== -->
-   <section id="portfolio" class="page-section page-section--portfolio page-section--no_white">
+   <section id="portfolio" class="page-section page-section--portfolio page-section--no_white" data-matching-link="#portfolio-link">
        <div class="wrapper">
          <h2 class="headline headline--center">My <strong>Portfolio</strong> </h2>
            <div class="row row--gutters">
