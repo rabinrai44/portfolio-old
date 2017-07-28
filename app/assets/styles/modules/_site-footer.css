@@ -7,15 +7,29 @@
     font-size: 1.1rem;
   }
 
+  &--info {
+    text-align: center;
+  }
+
   &--links {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    float: left;
+    margin-right: auto;
+    margin-left: auto;
+
+    @mixin atMedium {
+      float: left;
+      margin: 0;
+      padding: 0;
+    }
 
     li {
       display: inline-block;
-      margin-right: 20px;
+      margin-right: 50px;
+      margin-bottom: 30px;
+
+    @mixin atMedium {
+      margin-bottom: 0;
+    }
 
 
       &>a {
@@ -32,7 +46,13 @@
   }
 
   &--btn {
-    margin-top: 8px;
+    text-align: center;
+
+    @mixin atMedium {
+      display: inline-block;
+      margin-top: 8px;
+    }
+
   }
 
 }

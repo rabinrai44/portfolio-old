@@ -34,7 +34,7 @@
     transition: transform .3s ease-out;
     transform-origin: 50% 0;
     background-color: $mainGreen;
-    padding: 2px 30px;
+    padding: 20px 36px;
 
     @mixin atMedium {
       left: auto;

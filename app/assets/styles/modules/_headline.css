@@ -20,4 +20,13 @@
     margin-bottom: 1.3rem;
     margin-top: 0;
   }
+
+  &--icon {
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+  }
 }

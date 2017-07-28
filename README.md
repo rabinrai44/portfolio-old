@@ -81,6 +81,14 @@ Project Setting Up:
   - jQuery-smooth-scroll
     >npm install jquery-smooth-scroll --save
 
+  - Gulp-svg-sprite - automatic create svg sprite and css
+    >npm install gulp-svg-sprite@1.3.1 --save-dev
+
+  - Gulp-rename - rename file
+    >npm install gulp-rename --save-dev
+
+  -Del - delete file 
+    >npm install del --save-dev
 
 
 # File organized

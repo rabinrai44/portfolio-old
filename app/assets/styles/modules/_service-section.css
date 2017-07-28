@@ -9,6 +9,18 @@
   cursor: pointer;
 
 
+&--icon__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+&--icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 &:hover {
   background-color: $aliceBlue;
@@ -20,7 +32,7 @@
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
-    margin: 0;
+    padding-top: 2.8125rem;
   }
 
   img {

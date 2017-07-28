@@ -30,10 +30,10 @@
     <header class="site-header">
       <div class="wrapper">
           <div class="site-header__logo">
-            <div class="site-header__logo__graphic icon icon-rbn-curve">
+            <div class="site-header__logo__graphic icon icon--rbn__w">
                 Rabin Rai
             </div>
-              <a href="#home" id="home-link"><img src="assets/images/icons/icon-rbn-curve-w.png" width="65" alt="site logo"></a>
+              <a href="#home" id="home-link"><span class="icon icon--rbn__w"></span></a>
           </div><!-- /.site-header__logo -->
           <div class="site-header__menu-icon">
             <div class="site-header__menu-icon__middle"></div>
@@ -102,7 +102,9 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
                <!-- Service one -->
                <div class="row__medium-3">
                    <div class="service">
-                       <span class="icon icon-design"><img src="assets/images/icons/icon-rbn-curve.png"></span>
+                     <div class="service--icon__wrapper">
+                       <span class="icon icon--design service--icon"></span>
+                     </div><!-- /.icon__wrapper -->
                          <h4 class="service__title">Graphic Design </h4>
                        <p>
                          I do the Graphic Design with high quality digital products - Logo, Business Card, Icon, Banner, Web Layout etc.
@@ -112,8 +114,10 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
                <!-- Service two -->
                <div class="row__medium-3" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="0.8s">
                    <div class="service">
-                      <span class="icon icon-code"><img src="assets/images/icons/icon-html5.png"></span>
-                         <h4 class="service__title">Web Development </h4>
+                     <div class="service--icon__wrapper">
+                       <span class="icon icon--code service--icon"></span>
+                     </div><!-- /.icon__wrapper -->
+                         <h4 class="service__title"> Web Development </h4>
                        <p>
                            From scratch to finish, Landing page, PSD to HTML/Bootstrap using CSS3, HTML5 with Responsive Design.
                        </p>
@@ -122,7 +126,9 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
                <!-- Service three -->
                <div class="row__medium-3">
                    <div class="service">
-                        <span class="icon icon-wordpress"><img src="assets/images/icons/icon-wordpress.png"></span>
+                     <div class="service--icon__wrapper">
+                       <span class="icon icon--wordpress service--icon"></span>
+                     </div><!-- /.icon__wrapper -->
                          <h4 class="service__title">WordPress Devlopment </h4>
                        <p>
                            I can integrate your site with WordPress that will 100% dynamic and functional website.
@@ -132,7 +138,9 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
                <!-- Service four -->
                <div class="row__medium-3">
                    <div class="service">
-                       <span class="icon icon-search"><img src="assets/images/icons/icon-preloader.gif"></span>
+                       <div class="service--icon__wrapper">
+                         <span class="icon icon--seo service--icon"></span>
+                       </div><!-- /.icon__wrapper -->
                          <h4 class="service__title">Search Engine Optimization </h4>
                        <p>
                            Search Engine Optimization is essential for any website, I optimize your website to rank in search engines.
@@ -234,18 +242,44 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
         <div class="wrapper">
             <div class="row">
               <div class="row__medium-6">
-                <p>
+                <p class="site-footer--info">
                 All rights reserved © 2017 <a href="https://rabinrai.com/"><span class="name">RBN </span></a>Design.
                 </p>
               </div><!-- /.row__medium-6 -->
               <div class="row__medium-6">
                 <ul class="site-footer--links">
-                  <li><a href="#" class="icon icon-github">Github</a></li>
-                  <li><a href="#" class="icon icon-facebook">Facebook</a></li>
-                  <li><a href="#" class="icon icon-twitter">Twitter</a></li>
-                  <li><a href="#" class="icon icon-linkden">Linkden</a></li>
+                  <li>
+                    <div class="service--icon__wrapper">
+                      <a href="https://github.com/rabinrai44">
+                        <span class="icon icon--github__w service--icon"></span>
+                      </a>
+                    </div><!-- /.icon__wrapper -->
+                  </li>
+                  <li>
+                    <div class="service--icon__wrapper">
+                      <a href="https://www.facebook.com/rbnenice">
+                        <span class="icon icon--facebook__w service--icon"></span>
+                      </a>
+                      </div><!-- /.icon__wrapper -->
+                  </li>
+                  <li>
+                    <div class="service--icon__wrapper">
+                      <a href="https://twitter.com/rabinrai44">
+                        <span class="icon icon--twitter__w service--icon"></span>
+                      </a>
+                      </div><!-- /.icon__wrapper -->
+                  </li>
+                  <li>
+                    <div class="service--icon__wrapper">
+                      <a href="https://www.linkedin.com/in/rabin-rai-58a43913a/">
+                        <span class="icon icon--linkedin__w service--icon"></span>
+                      </a>
+                      </div><!-- /.icon__wrapper -->
+                  </li>
                 </ul>
-                <a href="#" class="btn btn--tomato site-footer--btn open-modal">Get in Touch</a>
+                <div class="site-footer--btn">
+                  <a href="#" class="btn btn--tomato open-modal">Get in Touch</a>
+                </div>
               </div><!-- /.row__medium-6 -->
             </div><!-- /.row -->
         </div><!-- /.wrapper -->
@@ -253,16 +287,16 @@ Responsive website with Bootstrap &amp; WordPress.                </p>
 
      <div class="modal">
         <div class="modal__inner">
-            <h2 class="headline headline--center headline--less-margin">Get in <strong>Touch</strong> </h2>
+            <h2 class="headline headline--center headline--less-margin"><span class="headline--icon icon--mail__o"></span> Get in <strong>Touch</strong> </h2>
             <div class="wrapper wrapper--narrow">
               <p class="modal__description">Feel free and contact me with the following any method, I'll be happy to answer as soon as possible!</p>
+              <div class="social-icons">
+                  <a href="#"><span class="social-icons__icon icon icon--facebook"></span></a>
+                  <a href="#"><span class="social-icons__icon icon icon--twitter"></span></a>
+                  <a href="#"><span class="social-icons__icon icon icon--linkedin__large"></span></a>
+                  <a href="#"><span class="social-icons__icon icon icon--github__large"></span></a>
+              </div><!-- /.social-icon-links -->
           </div><!-- /.wrapper -->
-          <div class="social-icons">
-              <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
-              <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
-              <a href="#" class="social-icons__icon"><span class="icon icon--linkedin"></span></a>
-              <a href="#" class="social-icons__icon"><span class="icon icon--github"></span></a>
-          </div><!-- /.social-icon-links -->
         </div><!-- /.modal__inner -->
         <div class="modal__close">X</div><!-- /.modal__close -->
      </div><!-- /.modal -->

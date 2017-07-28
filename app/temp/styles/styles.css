@@ -522,7 +522,7 @@ a {
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #3C6E71;
-    padding: 2px 30px;
+    padding: 20px 36px;
   }
 
 @media (min-width: 800px) {
@@ -949,6 +949,15 @@ a {
     margin-top: 0;
   }
 
+.headline--icon {
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+
 .row::after {
     content: "";
     clear: both;
@@ -1086,6 +1095,19 @@ a {
   cursor: pointer;
 }
 
+.service--icon__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.service--icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .service:hover {
   background-color: #ECF8F8;
   -webkit-transform: scale(1.04);
@@ -1097,7 +1119,7 @@ a {
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
-    margin: 0;
+    padding-top: 2.8125rem;
   }
 
 .service img {
@@ -1169,17 +1191,37 @@ a {
 }
   }
 
+.site-footer--info {
+    text-align: center;
+  }
+
 .site-footer--links {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    float: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer--links {
+      float: left;
+      margin: 0;
+      padding: 0
+  }
   }
 
 .site-footer--links li {
       display: inline-block;
-      margin-right: 20px;
+      margin-right: 50px;
+      margin-bottom: 30px;
     }
+
+@media (min-width: 800px) {
+
+.site-footer--links li {
+      margin-bottom: 0
+    }
+  }
 
 .site-footer--links li>a {
         color: #FFF;
@@ -1193,7 +1235,17 @@ a {
         }
 
 .site-footer--btn {
-    margin-top: 8px;
+    text-align: center;
+
+  }
+
+@media (min-width: 800px) {
+
+.site-footer--btn {
+      display: inline-block;
+      margin-top: 8px
+
+  }
   }
 
 .reveal-item {
@@ -1268,5 +1320,155 @@ a {
     }
 
 .social-icons {
+  position: relative;
   text-align: center;
 }
+
+.social-icons__icon {
+    display: inline-block;
+  }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+instead edit gulp/templates/sprite */
+
+.icon {
+      background-image: url(/assets/images/sprites/sprite-d573f181.svg);
+    }
+
+.icon--code {
+    width: 64px;
+    height: 64px;
+    background-position: 0 0;
+  }
+
+.icon--codepen {
+    width: 32px;
+    height: 32px;
+    background-position: 14.285714285714286% 85.71428571428571%;
+  }
+
+.icon--css3 {
+    width: 32px;
+    height: 32px;
+    background-position: 0 100%;
+  }
+
+.icon--design {
+    width: 64px;
+    height: 64px;
+    background-position: 33.333333333333336% 33.333333333333336%;
+  }
+
+.icon--facebook {
+    width: 64px;
+    height: 64px;
+    background-position: 66.66666666666667% 0;
+  }
+
+.icon--facebook__w {
+    width: 32px;
+    height: 32px;
+    background-position: 100% 85.71428571428571%;
+  }
+
+.icon--github {
+    width: 32px;
+    height: 32px;
+    background-position: 85.71428571428571% 85.71428571428571%;
+  }
+
+.icon--github__large {
+    width: 64px;
+    height: 64px;
+    background-position: 33.333333333333336% 66.66666666666667%;
+  }
+
+.icon--github__w {
+    width: 32px;
+    height: 32px;
+    background-position: 0 85.71428571428571%;
+  }
+
+.icon--google-plus {
+    width: 32px;
+    height: 32px;
+    background-position: 57.142857142857146% 85.71428571428571%;
+  }
+
+.icon--html5 {
+    width: 32px;
+    height: 32px;
+    background-position: 42.857142857142854% 85.71428571428571%;
+  }
+
+.icon--linkedin {
+    width: 32px;
+    height: 32px;
+    background-position: 28.571428571428573% 100%;
+  }
+
+.icon--linkedin__large {
+    width: 64px;
+    height: 64px;
+    background-position: 100% 66.66666666666667%;
+  }
+
+.icon--linkedin__w {
+    width: 32px;
+    height: 32px;
+    background-position: 71.42857142857143% 85.71428571428571%;
+  }
+
+.icon--mail {
+    width: 32px;
+    height: 32px;
+    background-position: 28.571428571428573% 85.71428571428571%;
+  }
+
+.icon--mail__o {
+    width: 64px;
+    height: 64px;
+    background-position: 100% 33.333333333333336%;
+  }
+
+.icon--rbn {
+    width: 64px;
+    height: 64px;
+    background-position: 100% 0;
+  }
+
+.icon--rbn__w {
+    width: 64px;
+    height: 64px;
+    background-position: 66.66666666666667% 66.66666666666667%;
+  }
+
+.icon--search__chart {
+    width: 64px;
+    height: 64px;
+    background-position: 0 66.66666666666667%;
+  }
+
+.icon--seo {
+    width: 64px;
+    height: 64px;
+    background-position: 66.66666666666667% 33.333333333333336%;
+  }
+
+.icon--twitter {
+    width: 64px;
+    height: 64px;
+    background-position: 0 33.333333333333336%;
+  }
+
+.icon--twitter__w {
+    width: 32px;
+    height: 32px;
+    background-position: 14.285714285714286% 100%;
+  }
+
+.icon--wordpress {
+    width: 64px;
+    height: 64px;
+    background-position: 33.333333333333336% 0;
+  }

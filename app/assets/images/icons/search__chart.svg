@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<polygon fill="#F06449" points="47.938,32.463 41.98,27.357 39.066,27.357 37.931,28.414 37.931,36.667 47.938,36.667 	"/>
+	<rect x="37.931" y="37.286" fill="#F06449" width="10.007" height="8.588"/>
+	<rect x="26.636" y="18.124" fill="#F06449" width="10.676" height="8.614"/>
+	<polygon fill="#F06449" points="41.258,26.738 40.458,26.042 39.71,26.738 	"/>
+	<polygon fill="#F06449" points="17.61,36.667 26.017,36.667 26.017,33.418 23.748,31.535 	"/>
+	<polygon fill="#F06449" points="43.734,26.738 47.938,26.738 47.938,18.124 37.931,18.124 37.931,26.223 40.407,23.875 	"/>
+	<polygon fill="#F06449" points="47.938,30.349 47.938,27.357 44.457,27.357 	"/>
+	<rect x="26.636" y="37.286" fill="#F06449" width="10.676" height="8.588"/>
+	<polygon fill="#F06449" points="26.017,37.286 16.862,37.286 16.063,37.956 16.063,45.874 26.017,45.874 	"/>
+	<path fill="#F06449" d="M32,0.209c-17.559,0-31.791,14.229-31.791,31.79C0.21,49.557,14.441,63.79,32,63.79
+		c17.558,0,31.79-14.233,31.79-31.791C63.791,14.438,49.558,0.209,32,0.209z M48.969,46.905H15.031V17.093h33.938V46.905z"/>
+	<polygon fill="#F06449" points="26.017,31.303 26.017,27.357 16.063,27.357 16.063,35.842 23.748,29.42 	"/>
+	<polygon fill="#F06449" points="37.312,29.008 29.55,36.357 26.636,33.934 26.636,36.667 37.312,36.667 	"/>
+	<polygon fill="#F06449" points="36.745,27.357 26.636,27.357 26.636,31.818 29.499,34.191 	"/>
+	<rect x="16.063" y="18.124" fill="#F06449" width="9.955" height="8.614"/>
+</g>
+</svg>
