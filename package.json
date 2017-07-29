@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "jquery-smooth-scroll": "^2.2.0",
+    "lazysizes": "^4.0.0-rc3",
     "waypoints": "^4.0.1"
   }
 }

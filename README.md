@@ -87,8 +87,11 @@ Project Setting Up:
   - Gulp-rename - rename file
     >npm install gulp-rename --save-dev
 
-  -Del - delete file 
+  - Del - delete file
     >npm install del --save-dev
+
+  - LazyLoading
+    >npm install lazysizes --save
 
 
 # File organized
