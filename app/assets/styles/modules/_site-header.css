@@ -57,6 +57,7 @@
     top: 10px;
     right: 20px;
     z-index: 10; /* should have z-index value, coz menu icon overlaping by content*/
+    cursor: pointer;
 
     &::before {
       content: "";

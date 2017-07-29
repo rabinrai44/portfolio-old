@@ -20,18 +20,27 @@
 
   &__3 {
     float: left;
-    width: 33.33%;
+    width: 100%%;
+
+    @mixin atSmall {
+      width: 50%;
+    }
+
+    @mixin  atMedium {
+      width: 33.33%;
+    }
   }
 
-  &__medium-3 > div  {
+
+  &__medium-3 {
+    float: left;
     width: 100%;
   }
 
 
   @mixin atMedium {
     &__medium-3 {
-      float: left;
-      width: 25%;
+      width: 50%;
     }
 
     &__medium-4 {
@@ -69,6 +78,10 @@
     & > div {
       float: none;
       display: flex;
+    }
+
+    @mixin atSmall {
+      float: left;
     }
   }
 

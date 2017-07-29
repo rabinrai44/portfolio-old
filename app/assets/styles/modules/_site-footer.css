@@ -9,6 +9,10 @@
 
   &--info {
     text-align: center;
+
+    @mixin atMedium {
+      text-align: left;
+    }
   }
 
   &--links {

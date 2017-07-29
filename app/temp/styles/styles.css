@@ -549,10 +549,9 @@ a {
     position: absolute;
     top: 10px;
     right: 20px;
-    z-index: 10;
+    z-index: 10; /* should have z-index value, coz menu icon overlaping by content*/
+    cursor: pointer;
   }
-
-/* should have z-index value, coz menu icon overlaping by content*/
 
 .site-header__menu-icon::before {
       content: "";
@@ -982,17 +981,31 @@ a {
 
 .row__3 {
     float: left;
-    width: 33.33%;
+    width: 100%%;
   }
 
-.row__medium-3 > div  {
+@media (min-width: 530px) {
+
+.row__3 {
+      width: 50%
+  }
+  }
+
+@media (min-width: 800px) {
+
+.row__3 {
+      width: 33.33%
+  }
+  }
+
+.row__medium-3 {
+    float: left;
     width: 100%;
   }
 
 @media (min-width: 800px) {
     .row__medium-3 {
-      float: left;
-      width: 25%;
+      width: 50%;
     }
 
     .row__medium-4 {
@@ -1036,6 +1049,13 @@ a {
       display: -ms-flexbox;
       display: flex;
     }
+
+@media (min-width: 530px) {
+
+.row--equal-height-until-medium {
+      float: left
+  }
+  }
 
 @media (min-width: 1200px) {
 
@@ -1093,6 +1113,7 @@ a {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  width: 100%;
 }
 
 .service--icon__wrapper {
@@ -1193,6 +1214,13 @@ a {
 
 .site-footer--info {
     text-align: center;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer--info {
+      text-align: left
+  }
   }
 
 .site-footer--links {
