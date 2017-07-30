@@ -1,120 +1,124 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 instead edit gulp/templates/sprite */
     .icon {
-      background-image: url(/assets/images/sprites/sprite-d573f181.svg);
+      background-image: url('/assets/images/sprites/sprite-5585206c.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-5585206c.png');
     }
   .icon--code {
-    width: 64px;
-    height: 64px;
+    width: 66px;
+    height: 66px;
     background-position: 0 0;
   }
   .icon--codepen {
-    width: 32px;
-    height: 32px;
-    background-position: 14.285714285714286% 85.71428571428571%;
+    width: 34px;
+    height: 34px;
+    background-position: 12.878787878787879% 100%;
   }
   .icon--css3 {
-    width: 32px;
-    height: 32px;
-    background-position: 0 100%;
+    width: 34px;
+    height: 34px;
+    background-position: 100% 17.171717171717173%;
   }
   .icon--design {
-    width: 64px;
-    height: 64px;
-    background-position: 33.333333333333336% 33.333333333333336%;
+    width: 66px;
+    height: 66px;
+    background-position: 28.448275862068964% 39.75903614457831%;
   }
   .icon--facebook {
-    width: 64px;
-    height: 64px;
-    background-position: 66.66666666666667% 0;
+    width: 66px;
+    height: 66px;
+    background-position: 56.89655172413793% 0;
   }
   .icon--facebook__w {
-    width: 32px;
-    height: 32px;
-    background-position: 100% 85.71428571428571%;
-  }
-  .icon--github {
-    width: 32px;
-    height: 32px;
-    background-position: 85.71428571428571% 85.71428571428571%;
-  }
-  .icon--github__large {
-    width: 64px;
-    height: 64px;
-    background-position: 33.333333333333336% 66.66666666666667%;
-  }
-  .icon--github__w {
-    width: 32px;
-    height: 32px;
-    background-position: 0 85.71428571428571%;
-  }
-  .icon--google-plus {
-    width: 32px;
-    height: 32px;
-    background-position: 57.142857142857146% 85.71428571428571%;
-  }
-  .icon--html5 {
-    width: 32px;
-    height: 32px;
-    background-position: 42.857142857142854% 85.71428571428571%;
-  }
-  .icon--linkedin {
-    width: 32px;
-    height: 32px;
-    background-position: 28.571428571428573% 100%;
-  }
-  .icon--linkedin__large {
-    width: 64px;
-    height: 64px;
-    background-position: 100% 66.66666666666667%;
-  }
-  .icon--linkedin__w {
-    width: 32px;
-    height: 32px;
-    background-position: 71.42857142857143% 85.71428571428571%;
-  }
-  .icon--mail {
-    width: 32px;
-    height: 32px;
-    background-position: 28.571428571428573% 85.71428571428571%;
-  }
-  .icon--mail__o {
-    width: 64px;
-    height: 64px;
-    background-position: 100% 33.333333333333336%;
-  }
-  .icon--rbn {
-    width: 64px;
-    height: 64px;
+    width: 34px;
+    height: 34px;
     background-position: 100% 0;
   }
+  .icon--github {
+    width: 34px;
+    height: 34px;
+    background-position: 77.27272727272727% 100%;
+  }
+  .icon--github__large {
+    width: 66px;
+    height: 66px;
+    background-position: 28.448275862068964% 79.51807228915662%;
+  }
+  .icon--github__w {
+    width: 34px;
+    height: 34px;
+    background-position: 0 100%;
+  }
+  .icon--google-plus {
+    width: 34px;
+    height: 34px;
+    background-position: 51.515151515151516% 100%;
+  }
+  .icon--html5 {
+    width: 34px;
+    height: 34px;
+    background-position: 38.63636363636363% 100%;
+  }
+  .icon--linkedin {
+    width: 34px;
+    height: 34px;
+    background-position: 100% 51.515151515151516%;
+  }
+  .icon--linkedin__large {
+    width: 66px;
+    height: 66px;
+    background-position: 85.34482758620689% 79.51807228915662%;
+  }
+  .icon--linkedin__w {
+    width: 34px;
+    height: 34px;
+    background-position: 64.39393939393939% 100%;
+  }
+  .icon--mail {
+    width: 34px;
+    height: 34px;
+    background-position: 25.757575757575758% 100%;
+  }
+  .icon--mail__o {
+    width: 66px;
+    height: 66px;
+    background-position: 85.34482758620689% 39.75903614457831%;
+  }
+  .icon--rbn {
+    width: 66px;
+    height: 66px;
+    background-position: 85.34482758620689% 0;
+  }
   .icon--rbn__w {
-    width: 64px;
-    height: 64px;
-    background-position: 66.66666666666667% 66.66666666666667%;
+    width: 66px;
+    height: 66px;
+    background-position: 56.89655172413793% 79.51807228915662%;
   }
   .icon--search__chart {
-    width: 64px;
-    height: 64px;
-    background-position: 0 66.66666666666667%;
+    width: 66px;
+    height: 66px;
+    background-position: 0 79.51807228915662%;
   }
   .icon--seo {
-    width: 64px;
-    height: 64px;
-    background-position: 66.66666666666667% 33.333333333333336%;
+    width: 66px;
+    height: 66px;
+    background-position: 56.89655172413793% 39.75903614457831%;
   }
   .icon--twitter {
-    width: 64px;
-    height: 64px;
-    background-position: 0 33.333333333333336%;
+    width: 66px;
+    height: 66px;
+    background-position: 0 39.75903614457831%;
   }
   .icon--twitter__w {
-    width: 32px;
-    height: 32px;
-    background-position: 14.285714285714286% 100%;
+    width: 34px;
+    height: 34px;
+    background-position: 100% 34.343434343434346%;
   }
   .icon--wordpress {
-    width: 64px;
-    height: 64px;
-    background-position: 33.333333333333336% 0;
+    width: 66px;
+    height: 66px;
+    background-position: 28.448275862068964% 0;
   }

@@ -70,7 +70,7 @@
   /* Begin equal-height-until-medium
   ========================================= */
 
-   &--equal-height-until-medium {
+  .flexbox &--equal-height-until-medium {
      @mixin atMedium {
       display: flex;
     }

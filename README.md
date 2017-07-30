@@ -93,6 +93,15 @@ Project Setting Up:
   - LazyLoading
     >npm install lazysizes --save
 
+  - Picturefill
+    >npm install picturefill --save
+
+  - Gulp-svg2png
+    >npm install gulp-svg2png --save-dev
+
+  - gulp-modernizr
+    >npm install gulp-modernizr --save-dev
+
 
 # File organized
 ====================
