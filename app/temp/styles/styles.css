@@ -733,8 +733,8 @@ a {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 20, 20, 0.8)), to(rgba(0, 0, 0, 0.7))), url('/assets/images/bg-optional.jpg');
-  background-image: linear-gradient(rgba(0, 20, 20, 0.8), rgba(0, 0, 0, 0.7)), url('/assets/images/bg-optional.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 20, 20, 0.8)), to(rgba(0, 0, 0, 0.7))), url('../../assets/images/bg-optional.jpg');
+  background-image: linear-gradient(rgba(0, 20, 20, 0.8), rgba(0, 0, 0, 0.7)), url('../../assets/images/bg-optional.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1361,11 +1361,11 @@ a {
 instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-5585206c.svg');
+      background-image: url('../../assets/images/sprites/sprite-5585206c.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-5585206c.png');
+      background-image: url('../../assets/images/sprites/sprite-5585206c.png');
     }
 
 .icon--code {

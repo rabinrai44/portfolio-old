@@ -99,8 +99,17 @@ Project Setting Up:
   - Gulp-svg2png
     >npm install gulp-svg2png --save-dev
 
-  - gulp-modernizr
+  - Gulp-modernizr
     >npm install gulp-modernizr --save-dev
+
+  - Gulp-imagemin
+    >npm install gulp-imagemin --save-dev
+
+  - Gulp-usemin
+    >npm install gulp-usemin --save-dev
+
+  - Gulp-rev, Gulp-cssnano, Gulp-uglify
+    >npm install gulp-rev gulp-cssnano gulp-uglify --save-dev
 
 
 # File organized
