@@ -8,6 +8,10 @@
   }
 
   p a {
-    font-weight: 700;
+    font-weight: 500;
+  }
+
+  p em {
+    text-decoration: underline;
   }
 }
