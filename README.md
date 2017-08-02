@@ -5,7 +5,7 @@ https://rabinrai44.github.io/
 ----------------------
 Project Setting Up:
 ----------------------
-  # ToDoList
+  ## ToDoList
   ===================
   1. Project Name
   2. Git install
@@ -17,7 +17,7 @@ Project Setting Up:
   8. Go-live
 
 
-# Tools, Packages and Plugins:
+## Tools, Packages and Plugins:
 ===================
   * Tools:
   - git - version control
