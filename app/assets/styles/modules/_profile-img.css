@@ -1,0 +1,13 @@
+.profile-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    height: 180px;
+    position: relative;
+    
+    
+    img {
+    position: absolute;
+    border-radius: 50%;
+    }
+}

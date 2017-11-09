@@ -731,13 +731,9 @@ a {
 
 .lg-hero {
   position: relative;
-  height: 640px;
+  height: 600px;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 20, 20, 0.8)), to(rgba(0, 0, 0, 0.7))), url('../../assets/images/bg-optional.jpg');
-  background-image: linear-gradient(rgba(0, 20, 20, 0.8), rgba(0, 0, 0, 0.7)), url('../../assets/images/bg-optional.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #27ae60;
 }
 
 .lg-hero__text-content {
@@ -750,8 +746,17 @@ a {
     text-align: center;
   }
 
+.lg-hero__text-content p {
+          color: #d4d4d4;
+          letter-spacing: 4px;
+          font-size: 1.375rem;
+          font-weight: 400;
+          margin: 0;
+      }
+
 .lg-hero__title {
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     color: #FFF;
     font-size: 2.4rem;
     margin: 0;
@@ -761,7 +766,7 @@ a {
 @media (min-width: 530px) {
 
 .lg-hero__title {
-      font-size: 4.8rem
+      font-size: 3.75rem
 
   }
   }
@@ -810,7 +815,6 @@ a {
   display: inline-block;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
-
 
 }
 
@@ -867,6 +871,11 @@ a {
     background-color: transparent;
     border: 1px solid #FFF;
   }
+
+.btn--outline:hover {
+          background-color: #34495e;
+          border-color: #34495e;
+      }
 
 .btn--inline {
     display: inline-block;
@@ -1529,3 +1538,53 @@ instead edit gulp/templates/sprite */
     height: 66px;
     background-position: 28.448275862068964% 0;
   }
+
+.profile-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    height: 180px;
+    position: relative;
+}
+
+.profile-img img {
+    position: absolute;
+    border-radius: 50%;
+    }
+
+.unstyled {
+    margin: 0;
+    padding: 0;
+}
+
+.unstyled li, .unstyled-btn li {
+        list-style: none;
+        display: inline-block;
+    }
+
+.unstyled-btn {
+    margin-top: 60px;
+}
+
+.unstyled-btn li {
+        margin-right: 15px;
+    }
+
+.unstyled-btn li:last-child {
+            margin-right: 0;
+        }
+
+.fa-styled {
+    font-size: 2.626rem;
+    color: #e5e5e5;
+    margin-right: 20px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.fa-styled:hover {
+        color:#34495e;
+        cursor: pointer;
+        -webkit-transform: scale(1.02);
+                transform: scale(1.02);
+    }

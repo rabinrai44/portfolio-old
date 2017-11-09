@@ -54,6 +54,11 @@
   &--outline {
     background-color: transparent;
     border: 1px solid #FFF;
+      
+      &:hover {
+          background-color: #34495e;
+          border-color: #34495e;
+      }
   }
 
   &--inline {
@@ -64,6 +69,5 @@
     width: 100%;
     text-align: center;
   }
-
 
 }
