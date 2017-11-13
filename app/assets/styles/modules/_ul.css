@@ -33,5 +33,12 @@
         color:#34495e;
         cursor: pointer;
         transform: scale(1.02);
-    }
+    }    
+    
 }
+
+.fa-angel-styled {
+        font-size: 4rem;
+        margin-top: 70px;     
+        opacity: .9;  
+    }

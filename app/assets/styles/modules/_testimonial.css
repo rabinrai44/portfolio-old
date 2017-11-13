@@ -1,0 +1,22 @@
+.page-section--testimonial {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    background-color: $darkGrey;
+
+    .blockquote {
+        padding: 10px 20px;
+        margin: 0 0 20px;
+        color: $aliceBlue;
+        text-align: right;
+        letter-spacing: 2px;
+        font-size: 21px;
+        font-style: italic;
+        border-right: 5px solid $aliceBlue;
+        
+    }
+
+    em {
+        color: #ccc;
+    }
+}

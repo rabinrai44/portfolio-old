@@ -1,5 +1,4 @@
 .page-section--about {
-  color: #FFF;
 
   &__profile-img {
     margin: 0;
@@ -15,4 +14,50 @@
       margin-bottom: 10px;
     }
   }
+    
+    .skills {
+        padding: 5px 0;
+        
+        li {
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+            
+            i {
+                color: #d3d3d3;
+                font-size: 2rem;
+                transition: all 0.3s ease-out;
+                opacity: .8;
+                cursor: pointer;
+                margin: 5px auto;
+                
+                &:hover {
+                    color: #2ecc71;
+                    opacity: 1;
+                }
+            }
+        }
+       
+        img {
+            max-width: 42px;
+        }
+        
+        &::after {
+            content: "";
+            background-color: #d3d3d3;
+            height: 2px;
+            width: 60%;
+        }
+    }
+
+    .img-profile {
+        margin-top: 30px;
+    }
+}
+
+.content-styled {
+    border-right: 5px solid $darkLight;
+    padding-right: 20px;
+    text-align: right;
 }

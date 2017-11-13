@@ -3,26 +3,26 @@
   width: 100%;
   padding: 10px 0;
   z-index: 2;
-  transition: background-color .3s ease-out;
+ transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainGreen, .65);
+   /* background-color: rgba($primary-color, .65); */
   }
 
 
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainGreen, .3);
 
     &--dark {
-      background-color: rgba($mainGreen, .8);
+     background-color: rgba($darkGrey, .6);
     }
   }
 
   &__btn-container {
     @mixin atMedium {
       float: right;
+      margin-right: 80px;
     }
   }
 
@@ -33,7 +33,7 @@
     transform: translateX(-50%) scale(.6);
     transition: transform .3s ease-out;
     transform-origin: 50% 0;
-    background-color: $mainGreen;
+    background-color: $primary-color;
     padding: 20px 36px;
 
     @mixin atMedium {
@@ -54,7 +54,7 @@
     width: 20px;
     height: 19px;
     position: absolute;
-    top: 10px;
+    top: 24px;
     right: 20px;
     z-index: 10; /* should have z-index value, coz menu icon overlaping by content*/
     cursor: pointer;
@@ -64,7 +64,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 20px;
+      width: 22px;
       height: 3px;
       background-color: $aliceBlue;
       transform-origin: 0 0;
@@ -74,7 +74,7 @@
       position: absolute;
       top: 8px;
       left: 0;
-      width: 20px;
+      width: 22px;
       height: 3px;
       background-color: $aliceBlue;
       transition: all .3s ease-out;
@@ -85,7 +85,7 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 20px;
+      width: 22px;
       height: 3px;
       background-color: $aliceBlue;
       transform-origin: 0 100%;
@@ -93,11 +93,6 @@
     }
   }
 
-  @mixin atMedium {
-    &__menu-icon {
-      display: none;
-    }
-  }
 
   &__menu-icon--close-x {
     &::before {
@@ -120,15 +115,8 @@
     transition: all .3s ease-out;
     position: relative;
     z-index: -10;
-    padding-top: 62px;
     text-align: center;
 
-    @mixin atMedium {
-    opacity: 1;
-    z-index: 1;
-    padding-top: 0;
-    transform: scale(1);
-    }
 
     &--is-visible {
       opacity: 1;

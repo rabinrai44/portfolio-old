@@ -1,0 +1,28 @@
+.main-skills {
+    
+    h3 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+    }
+    
+    .skill-single {
+        margin-bottom: 25px;
+        
+        .skill-bar {
+            border-bottom: 4px solid $primary-color;
+        }
+        
+        .skill-name {
+            margin: 0;
+            display: inline-block;
+        }
+        
+        .skill-count {
+            font-size: 12px;
+            display: inline-block;
+            float: right;
+        }
+    }
+    
+}

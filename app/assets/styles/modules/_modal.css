@@ -38,7 +38,7 @@
     font-size: 2rem;
     transform: scaleX(1.2);
     transform-origin: 100% 0;
-    color: $mainGreen;
+    color: $primary-color;
     cursor: pointer;
 
     &:hover {

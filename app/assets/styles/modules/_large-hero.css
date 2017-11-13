@@ -2,17 +2,22 @@
 ================================= */
 .lg-hero {
   position: relative;
-  height: 660px;
+  height: 800px;
   width: 100%;
-  background-color: #27ae60;
+  /* background-color: #27ae60; */
+  background-image: linear-gradient(rgba(0,20,20, 0.66),rgba(0,0,0, 0.33)),url(https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?auto=format&fit=crop&w=1955&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background-size: cover;
+  background-position: top left;
+  background-attachment: fixed;
 
   &__text-content {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     left: 0;
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 7px #000;
       
       p {
           color: #d4d4d4;
@@ -25,10 +30,10 @@
               font-size: 1.275rem;
           }
       }
+      
   }
 
   &__title {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #FFF;
     font-size: 2.4rem;
@@ -65,4 +70,10 @@
       font-size: 1.875rem;
     }
   }
+
+  .arrow {
+    text-align: center;
+    text-shadow: none;
+  }
+
 }

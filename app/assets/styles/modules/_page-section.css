@@ -7,16 +7,22 @@
 
 
   &--green {
-    background-color: $mainGreen;
+/*    background-color: $primary-color;*/
   }
 
   &--no_white {
     background-color: $aliceBlue;
   }
 
-  &--services {
+  &--services,
+  &--skills,
+  &--getintouch {
     background-color: $aliceBlue;
 
+  }
+
+  &--getintouch {
+    clear: both;
   }
 
 }

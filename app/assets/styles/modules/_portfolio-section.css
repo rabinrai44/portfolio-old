@@ -2,6 +2,13 @@
 ================================= */
 .page-section--portfolio {
 
+  .view-all-link {
+    float: left;
+    height: audio;
+    width: 100%;
+    clear: both;
+  }
+
 }
 .p-item {
   position: relative;
@@ -15,7 +22,7 @@
     height: 0;
     color: #FFF;
     overflow: hidden;
-    background-color: $mainGreen;
+    background-color: $darkGrey;
     transition: all .5s ease;
     text-align: center;
 

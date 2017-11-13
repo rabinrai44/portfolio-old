@@ -1,0 +1,45 @@
+.getin-touch {
+
+    
+}
+
+.contact-form {
+    margin-top: 40px;
+    input,
+    textarea {
+        font-size: 17px;
+        width: 100%;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid $primary-color;
+        border-left: 0;
+        color: $darkGrey;
+        padding: 10px 0 0 7px;
+        box-shadow: none;
+        transition: 0.4s ease;
+
+        &::placeholder {
+            opacity: .7;
+        }
+       
+    }
+
+    input {       
+        height: 60px;        
+        margin-bottom: 30px; 
+    }
+
+    textarea {
+        height: 160px;
+        resize: none;
+        margin-bottom: 20px;
+
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+    }
+
+
+}

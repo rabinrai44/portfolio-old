@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: $mainGreen;
+  background-color: $darkGrey;
   color: #FFF;
   padding: .75rem 0;
 
@@ -59,4 +59,41 @@
 
   }
 
+}
+
+.secondary-nav {
+  float: left;
+  margin-right: 10px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;  
+    margin-right: 10px;  
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @mixin atMedium {
+      display: inline-block;
+      margin-right: 15px;
+      margin-bottom: 0; 
+    }
+  }
+
+  a {
+    color: #fff;
+    line-height: 68px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }

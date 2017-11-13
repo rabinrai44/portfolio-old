@@ -1,5 +1,5 @@
 .primary-nav {
-  padding-top: 10px;
+  padding-top: 40px;
 
   @mixin atMedium {
     padding-top: 0;
@@ -42,7 +42,6 @@
     color: #FFF;
     font-weight: 300;
     font-size: .8rem;
-    background-color: rgba($mainGreen, .5);
     text-decoration: none;
     display: block;
     padding: 5px 8px;
@@ -50,10 +49,9 @@
     @mixin atMedium {
       font-size: 1rem;
       padding: 13px 0;
-      background-color: transparent;
 
       &.is-current-link {
-        color: $tomaColor;
+        color: #ccc;
       }
     }
   }

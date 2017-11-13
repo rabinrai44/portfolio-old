@@ -2,18 +2,18 @@
 ================================= */
 .btn {
   color: #FFF;
-  background-color: $mainGreen;
+  background-color: $primary-color;
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
   transition: all .3s ease-out;
 
   &:hover {
-    background-color: $tomaColor;
+    background-color: $darkGrey;
   }
 
   &--green {
-    background-color: $mainGreen;
+    background-color: $primary-color;
   }
 
   &--tomato {
@@ -26,6 +26,12 @@
       border: 1px solid $aliceBlue;
       transform: scale(1.03);
     }
+  }
+
+  &--outline-default {
+    color: $darkGrey;
+    background-color: transparent;
+    border: 1px solid #dddddd;
   }
 
 
@@ -59,6 +65,13 @@
           background-color: #34495e;
           border-color: #34495e;
       }
+
+      &-f {
+
+        &:hover {
+          background-color: $primary-color;
+        }
+      }
   }
 
   &--inline {
@@ -68,6 +81,10 @@
   &--block {
     width: 100%;
     text-align: center;
+  }
+
+  &--pull-right {
+    float: right;
   }
 
 }
