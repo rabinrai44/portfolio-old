@@ -5,6 +5,10 @@
   font-weight: 300;
   color: $darkGrey;
 
+  &--primary {
+    color: $primary-color;
+  }
+
   @mixin atSmall {
     font-size: 2.2rem;
   }

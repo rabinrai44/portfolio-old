@@ -14,7 +14,7 @@ gulp.task('watch', function() {
   });
 
 // Watching for index file
-  watch('./app/index.html', function() {
+  watch('./app/*.html', function() {
     browserSync.reload();
   });
 

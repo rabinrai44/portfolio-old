@@ -25,4 +25,23 @@
     clear: both;
   }
 
+  &--blog {
+
+    &-single .blog-post--item {
+      border-bottom: none;
+    }
+  }
+
+}
+
+.page-header {
+  color: #fff;
+  padding: 100px 0;
+  width: 100%;
+  background: #DCE35B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
 }

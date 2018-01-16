@@ -9,6 +9,10 @@
     clear: both;
   }
 
+  &-related {
+    background-color: $darkGrey;
+  }
+
 }
 .p-item {
   position: relative;
@@ -59,4 +63,10 @@
   }
 
 
+}
+
+.build-with {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
 }

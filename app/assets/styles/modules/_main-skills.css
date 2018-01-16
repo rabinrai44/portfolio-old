@@ -10,7 +10,7 @@
         margin-bottom: 25px;
         
         .skill-bar {
-            border-bottom: 4px solid $primary-color;
+            border-bottom: 10px solid $primary-color;
         }
         
         .skill-name {
