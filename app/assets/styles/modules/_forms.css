@@ -11,7 +11,6 @@
         width: 100%;
         border-top: 0;
         border-right: 0;
-        border-bottom: 1px solid $primary-color;
         border-left: 0;
         color: $darkGrey;
         padding: 10px 0 0 7px;
@@ -41,5 +40,17 @@
         cursor: pointer;
     }
 
+    .input {
+        border: none;
+        border-bottom: 2px solid transparent;
 
+        &:focus {
+            outline: none;
+            border-bottom: 2px solid $primary-color;
+        }
+
+        &:focus:invalid {
+            border-bottom: 2px solid $tomaColor;
+        }
+    }
 }

@@ -1840,8 +1840,6 @@ instead edit gulp/templates/sprite */
 
 .contact-form {
     margin-top: 40px;
-
-
 }
 
 .contact-form input,
@@ -1850,7 +1848,6 @@ instead edit gulp/templates/sprite */
         width: 100%;
         border-top: 0;
         border-right: 0;
-        border-bottom: 1px solid #9ccd45;
         border-left: 0;
         color: #34495e;
         padding: 10px 0 0 7px;
@@ -1889,6 +1886,20 @@ instead edit gulp/templates/sprite */
         border: none;
         cursor: pointer;
     }
+
+.contact-form .input {
+        border: none;
+        border-bottom: 2px solid transparent;
+    }
+
+.contact-form .input:focus {
+            outline: none;
+            border-bottom: 2px solid #9ccd45;
+        }
+
+.contact-form .input:focus:invalid {
+            border-bottom: 2px solid #F06449;
+        }
 
 .blog-post--item {
     margin-bottom: 3rem;
